@@ -20,7 +20,7 @@
   - [terraform validate](https://www.terraform.io/docs/commands/validate.html)
   - [TFLint](https://github.com/terraform-linters/tflint)
   - [pre-commit](https://pre-commit.com)
- - Remote:
+- Remote:
   - [Docker Enginer](https://docs.docker.com/engine/)
   - [Docker Compose](hhttps://docs.docker.com/compose/)
 

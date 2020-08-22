@@ -15,10 +15,10 @@ output "private_ip" {
 
 output "security_group_id" {
   description = "The ID of the security group"
-  value       = module.security-group.this_security_group_id
+  value       = module.security_group.this_security_group_id
 }
 
 output "security_group_name" {
   description = "The name of the security group"
-  value       = module.security-group.this_security_group_name
+  value       = module.security_group.this_security_group_name
 }

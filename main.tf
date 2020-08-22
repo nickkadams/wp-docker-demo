@@ -48,7 +48,7 @@ resource "aws_instance" "docker" {
   ami                         = data.aws_ami.image.id
   instance_type               = var.instance_type
   subnet_id                   = tolist(data.aws_subnet_ids.selected.ids)[count.index]
-  vpc_security_group_ids      = [module.security-group.this_security_group_id]
+  vpc_security_group_ids      = [module.security_group.this_security_group_id]
   key_name                    = var.shared_key_name
   associate_public_ip_address = true
   disable_api_termination     = false

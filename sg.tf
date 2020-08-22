@@ -11,7 +11,7 @@ data "http" "icanhazip" {
   url = "http://icanhazip.com"
 }
 
-module "security-group" {
+module "security_group" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "~> 3.16.0"
 
