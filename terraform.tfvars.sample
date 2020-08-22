@@ -1,0 +1,9 @@
+vpc_name = "my-vpc"
+
+subnet_name = "*-public-*"
+
+os_version = 18.04
+
+volume_size = 20
+
+encryption_enabled = false
