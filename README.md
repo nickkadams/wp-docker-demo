@@ -22,7 +22,7 @@
   - [pre-commit](https://pre-commit.com)
 - Remote:
   - [Docker Enginer](https://docs.docker.com/engine/)
-  - [Docker Compose](hhttps://docs.docker.com/compose/)
+  - [Docker Compose](https://docs.docker.com/compose/)
 
 ## Usage
 
