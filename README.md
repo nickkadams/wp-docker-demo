@@ -34,6 +34,14 @@ If you want to override the default variables in [variables.tf](https://github.c
 1. From your web browser, access the public_ip displayed from the successful terraform apply to finish configuring [WordPress](https://wordpress.org/support/article/how-to-install-wordpress/#setup-configuration-file).  
 1. If this is *NOT* production and you are finished testing, you can destroy the infrastructure by running `terraform destroy` and typing `yes` when prompted.
 
+### Optional - RDS Multi-AZ MySQL
+
+1. `cd rds`
+1. `terraform init`
+1. `terraform plan`
+1. `terraform apply`
+1. You can find your randomly generated [RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) password encrypted in [Systems Manager > Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html).
+
 ## Notes
 
 - For HTTPS see [Let's Encrypt with Docker](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71)
